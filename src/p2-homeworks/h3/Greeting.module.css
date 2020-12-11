@@ -1,7 +1,40 @@
-.someClass {
-
+.error_input {
+    border-color: #0766bf;
 }
 
-.error {
-    border: 1px solid red;
+.error_input,
+.input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #969393;
+}
+
+.wrapper {
+    margin: 20px;
+}
+
+.btn_add {
+    margin-left: 10px;
+    padding: 7px;
+    border: 0;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+}
+
+.btn_add:hover{
+    cursor: pointer;
+    background-color: #0766bf;
+}
+
+.error_msg {
+    display: block;
+    color: #c82e2e;
+    font-weight: 600;
+}
+
+.total_users {
+    margin-top: 10px;
+    display: block;
 }
