@@ -1,3 +1,15 @@
 .App {
 
 }
+.btn {
+    border: 0;
+    background: none;
+    margin: 16px 15px;
+    outline: none;
+    z-index: 2;
+    position: relative;
+}
+
+.btn:hover {
+    color: #2196F3;
+}
