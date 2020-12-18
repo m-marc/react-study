@@ -1,0 +1,11 @@
+.isEditable {
+    display: inline-block;
+    font: 400 13.3333px Arial;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    min-width: 187px;
+}
