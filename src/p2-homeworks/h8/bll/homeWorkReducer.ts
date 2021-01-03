@@ -1,4 +1,18 @@
-export const homeWorkReducer = (state: any, action: any): any => {
+import {person} from "../HW8";
+
+type ActionType = sortActionType | checkActionType
+
+export interface sortActionType {
+    type: string
+    payload: string
+}
+
+export interface checkActionType {
+    type: string
+    payload: number
+}
+
+export const homeWorkReducer = (state: person[], action: ActionType): person[] => {
     switch (action.type) {
         case "sort": {
             let newState = [...state];
@@ -9,8 +23,7 @@ export const homeWorkReducer = (state: any, action: any): any => {
             return  newState
         }
         case "check": {
-            let newState = [...state];
-            return newState.filter(a => a.age > 17)
+            return state.filter(a => a.age > 17)
         }
         default: return state
     }

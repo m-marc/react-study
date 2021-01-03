@@ -1,7 +1,8 @@
 import React from 'react';
 import {homeWorkReducer} from "../homeWorkReducer";
+import {person} from "../../HW8";
 
-let initialState: any[];
+let initialState: person[];
 
 beforeEach(() => {
     initialState = [
