@@ -1,0 +1,25 @@
+.timer {
+    position: relative;
+    transition: all .3s;
+    padding: 20px 0;
+}
+
+.date {
+    position: absolute;
+    padding: 5px;
+    background-color: #969393;
+    border-radius: 2px;
+    color: #ffffff;
+    top: 0;
+    left: calc(50% + 80px);
+    transform: translateX(-50%);
+    transition: all ease-in-out .3s;
+    z-index: -1;
+}
+
+.btn_container {
+    display: flex;
+    max-width: 300px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
