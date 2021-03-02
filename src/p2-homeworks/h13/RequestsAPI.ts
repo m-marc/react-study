@@ -1,9 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: 'https://neko-cafe-back.herokuapp.com/auth/test',
-    // @ts-ignore
-    body: {success: true}
+    baseURL: 'https://neko-cafe-back.herokuapp.com/auth/test'
 })
 
 export const requestsAPI = {
